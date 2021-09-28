@@ -1,0 +1,43 @@
+titleId	ordering	title	region	language	types	attributes	isOriginalTitle
+tt0000001	6	Carmencita	US	\N	imdbDisplay	\N	0
+tt0000002	7	The Clown and His Dogs	US	\N	\N	literal English title	0
+tt0000003	1	Sarmanul Pierrot	RO	\N	imdbDisplay	\N	0
+tt0000004	1	Un bon bock	\N	\N	original	\N	1
+tt0000005	10	Blacksmith Scene	\N	\N	original	\N	1
+tt0000006	3	Chinese Opium Den	US	\N	imdbDisplay	\N	0
+tt0000007	1	Corbett and Courtney Before the Kinetograph	US	\N	imdbDisplay	\N	0
+tt0000008	4	Edison Kinetoscopic Record of a Sneeze	US	\N	imdbDisplay	\N	0
+tt0000009	1	Miss Jerry	\N	\N	original	\N	1
+tt0000010	13	Leaving the Factory	US	\N	imdbDisplay	\N	0
+tt0000011	1	Akrobatisches Potpourri	DE	\N	imdbDisplay	\N	0
+tt0000012	1	The Arrival of a Train	US	\N	imdbDisplay	\N	0
+tt0000013	6	The Photographical Congress Arrives in Lyon	US	\N	imdbDisplay	\N	0
+tt0000014	1	The Sprinkler Sprinkled	US	\N	imdbDisplay	\N	0
+tt0000015	3	Around a Bathing Hut	US	\N	\N	literal English title	0
+tt0000016	8	Boat Leaving the Port	US	\N	imdbDisplay	\N	0
+tt0000017	1	Italienischer Bauerntanz	\N	\N	original	\N	1
+tt0000018	5	Mr. Delaware and the Boxing Kangaroo	GB	\N	\N	reissue title	0
+tt0000019	1	The Clown Barber	GB	\N	imdbDisplay	\N	0
+tt0000020	1	The Derby 1895	\N	\N	original	\N	1
+tt0000022	1	The Blacksmiths	US	\N	\N	literal English title	0
+tt0000023	5	The Sea	US	\N	imdbDisplay	\N	0
+tt0000024	1	Opening of the Kiel Canal	\N	\N	original	\N	1
+tt0000025	1	The Oxford and Cambridge University Boat Race	GB	\N	imdbDisplay	\N	0
+tt0000026	4	Game of Cards	GB	\N	\N	informal English title	0
+tt0000027	3	Cordeliers' Square in Lyon	US	\N	imdbDisplay	\N	0
+tt0000028	5	Fishing for Goldfish	XWW	en	imdbDisplay	\N	0
+tt0000029	1	Baby's Dinner	US	\N	\N	\N	0
+tt0000030	6	A South-West Storm in Dover	GB	\N	alternative	\N	0
+tt0060196	9	The Good, the Bad and the Ugly	US	\N	imdbDisplay	\N	0
+tt0068646	67	The Godfather	US	\N	imdbDisplay	\N	0
+tt0080684	14	Star Wars: Episode V - The Empire Strikes Back	US	\N	imdbDisplay	\N	0
+tt0110912	20	Pulp Fiction	US	en	\N	\N	0
+tt0111161	2	The Shawshank Redemption	US	en	\N	\N	0
+tt0133093	30	The Matrix	US	\N	imdbDisplay	\N	0
+tt0167260	5	The Lord of the Rings: The Return of the King	US	\N	imdbDisplay	\N	0
+tt0167261	1	The Lord of the Rings: The Two Towers	SG	\N	imdbDisplay	\N	0
+tt0468569	31	The Dark Knight	US	en	\N	\N	0
+tt1170358	19	The Hobbit: The Desolation of Smaug	AU	\N	imdbDisplay	\N	0
+tt1375666	10	Inception	US	\N	imdbDisplay	\N	0
+tt3498820	18	Captain America: Civil War	GB	\N	imdbDisplay	\N	0
+tt4154796	29	Avengers: Endgame	US	\N	imdbDisplay	\N	0
