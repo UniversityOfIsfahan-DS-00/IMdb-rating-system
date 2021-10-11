@@ -32,7 +32,7 @@ public class Main {
                         while (true) {
                             User temp_user = User.login();
                             System.out.println("1) RATE");
-                            //System.out.println("2) TOP BEST MOVIE");
+                            System.out.println("2) TOP BEST MOVIE");
                             System.out.println("3) LOG OUT");
                             switch (sc.nextInt()) {
                                 case 1: {
@@ -40,10 +40,10 @@ public class Main {
                                     temp.rate(temp_user);
                                     break;
                                 }
-//                                case 2: {
-//                                    Movie.top10();
-//                                    break;
-//                                }
+                                case 2: {
+                                    Movie.top10();
+                                    break;
+                                }
                                 case 3: {
                                     break L2;
                                 }

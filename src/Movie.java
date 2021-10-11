@@ -176,13 +176,13 @@ public class Movie implements Comparable<Movie>{
             return -1;
         }
     }
-//    public static void top10(){
-//        Collections.sort(movie_list);
-//        int index=1;
-//        for(int i=movie_list.size()-1;i>=movie_list.size()-10;i--){
-//            System.out.println(index+")");
-//            movie_list.get(i).print_info();
-//            index++;
-//        }
-//    }
+    public static void top10(){
+        Collections.sort(movie_list);
+        int index=1;
+        for(int i=movie_list.size()-1;i>=movie_list.size()-10;i--){
+            System.out.println(index+")");
+            movie_list.get(i).print_info();
+            index++;
+        }
+    }
 }
