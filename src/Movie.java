@@ -10,8 +10,10 @@ public class Movie {
     private String types;
     private String attributes;
     private int isOriginal;
+    private double rate;
+    private int numVotes;
 
-    public Movie(String title_ID,int ordering,String title,String regions,String language,String types,String attributes,int isOriginal){
+    public Movie(String title_ID,int ordering,String title,String regions,String language,String types,String attributes,int isOriginal,double rate,int numVotes){
         this.title_ID=title_ID;
         this.ordering=ordering;
         this.title=title;
@@ -20,6 +22,16 @@ public class Movie {
         this.types=types;
         this.attributes=attributes;
         this.isOriginal=isOriginal;
+        this.rate=rate;
+        this.numVotes=numVotes;
+    }
+
+    public void setNumVotes(int numVotes) {
+        this.numVotes = numVotes;
+    }
+
+    public void setRate(double rate) {
+        this.rate = rate;
     }
 
     public void setTypes(String types) {
@@ -58,6 +70,14 @@ public class Movie {
         this.regions = regions;
     }
 
+    public double getRate() {
+        return rate;
+    }
+
+    public int getNumVotes() {
+        return numVotes;
+    }
+
     public int getIsOriginal() {
         return isOriginal;
     }
@@ -91,23 +111,25 @@ public class Movie {
     }
 
 
-    public void new_Movie(String title_ID, int ordering, String title, String regions, String language, String types, String attributes, int isOriginal){
-        movie_list.add(new Movie(title_ID,ordering,title,regions,language,types,attributes,isOriginal));
+    public static void new_Movie(String title_ID, int ordering, String title, String regions, String language, String types, String attributes, int isOriginal,double rate,int numVotes){
+        movie_list.add(new Movie(title_ID,ordering,title,regions,language,types,attributes,isOriginal,rate,numVotes));
     }
 
     public String toString(){
-        return "title ID: "+this.title_ID+"\tordering: "+this.ordering+"\ttitle: "+this.title+"\tregions: "+this.regions+"\tlanguage: "+this.language+"\ttype: "+this.types+"\tattributes: "+this.attributes+"\tis original: "+this.isOriginal;
+        return "title ID: "+this.title_ID+"\tordering: "+this.ordering+"\ttitle: "+this.title+"\tregions: "+this.regions+"\tlanguage: "+this.language+"\ttype: "+this.types+"\tattributes: "+this.attributes+"\tis original: "+this.isOriginal+"\trate: "+this.rate+"\tnumber of votes: "+this.numVotes;
     }
     public void print_info(){
         System.out.println("___________________ MOVIE ____________________");
-        System.out.println("TITLE ID:"+this.title_ID);
+        System.out.println("TITLE ID :"+this.title_ID);
         System.out.println("ORDERING :"+this.ordering);
         System.out.println("TITLE :"+this.title);
-        System.out.println("REGIONS:"+this.regions);
-        System.out.println("LANGUAGE:"+this.language);
-        System.out.println("TYPES:"+this.types);
-        System.out.println("ATTRIBUTE:"+this.attributes);
-        System.out.println("IS ORIGINAL:"+this.isOriginal);
+        System.out.println("REGIONS :"+this.regions);
+        System.out.println("LANGUAGE :"+this.language);
+        System.out.println("TYPES :"+this.types);
+        System.out.println("ATTRIBUTE :"+this.attributes);
+        System.out.println("IS ORIGINAL :"+this.isOriginal);
+        System.out.println("RATE :"+this.rate);
+        System.out.println("VOTE NUMBER :"+this.numVotes);
         System.out.println("________________________________________________");
 
 
